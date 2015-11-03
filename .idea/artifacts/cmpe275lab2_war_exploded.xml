@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cmpe275lab2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cmpe275lab2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cmpe275lab2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cmpe275lab2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring Web Services-2.0.2" />
+          <element id="library" level="project" name="Spring MVC-4.1.6.RELEASE" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
